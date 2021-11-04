@@ -1,0 +1,38 @@
+body{
+    margin-left: 0;
+    padding-left: 0;
+}
+.container-fluid{
+    margin-left: 0;
+    padding-left: 0;
+}
+.col-md-3{
+    margin-left: 0;
+    padding-left: 0;
+}
+.forget_left{
+    text-align: left;
+}
+.container-fluid{
+    height: 100vh;
+    background: rgb(0, 179, 30);
+    background-image: url(hero_login.jpg);
+    background-size: cover;
+}
+.signinElement{
+    height: 100vh;
+    padding-top: 20vh;
+    background: white;
+    padding: 2em;
+    text-align: center;
+}
+.colum3{
+    background: tomato;
+}
+.btn-success{
+    width: 100%;
+}
+#Transection-area{
+    display: none;
+    float: left;
+}
