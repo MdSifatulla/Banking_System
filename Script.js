@@ -8,32 +8,22 @@ signIn.addEventListener('click', function () {
 })
 
 // Deposit button event handler
-// const depositBtn = document.getElementById('depositBtn');
-// depositBtn.addEventListener('click', function () {
-//     const depositAmount = document.getElementById('depositAmount').value;
-//     const depositNumber = parseFloat(depositAmount);
-
-//     const currentDeposit = document.getElementById('currentDeposit').innerText;
-//     const currentDepositNumber = parseFloat(currentDeposit);
-//     const totalDeposit = depositNumber + currentDepositNumber;
-//     document.getElementById(currentDeposit).innerText = totalDeposit;
-// })
-
 const depositBtn = document.getElementById('depositBtn');
-const depositAction =  ('click', function () {
+depositBtn.addEventListener('click', function () {
     const depositAmount = document.getElementById('inputDeposit').value;
     const depositNumber = parseFloat(depositAmount);
+    console.log('click is working')
 
-    const currentAmount = getElementById('currentAmount').innerText;
-    const currentNumber = parseFloat(currentAmount);
-    const showAmount = depositNumber + currentAmount;
+    const currentMoney = document.getElementById('depositAmount').innerText;
+    const currentNumber = parseFloat(currentMoney);
+    const showAmount = depositNumber + currentNumber;
     
-    document.getElementById('currentAmount').innerText = showAmount;
+    document.getElementById('depositAmount').innerText = showAmount;
     document.getElementById('inputDeposit').value = "";
 
     const currentBalance = document.getElementById('currentBalance').innerText;
     const currentBalanceNumber = parseFloat(currentBalance);
-    const totalBalance = currentBalanceNumber +showAmount;
+    const totalBalance = currentBalanceNumber + showAmount
     document.getElementById('currentBalance').innerText = totalBalance;
     
 })
