@@ -1,0 +1,65 @@
+body{
+    margin-left: 0;
+    padding-left: 0;
+}
+.container-fluid{
+    margin-left: 0;
+    padding-left: 0;
+}
+.col-md-3{
+    margin-left: 0;
+    padding-left: 0;
+}
+.forget_left{
+    text-align: left;
+}
+.loginarea{
+    height: 100vh;
+    background: rgb(0, 179, 30);
+    background-image: url(hero_login.jpg);
+    background-size: cover;
+}
+.signinElement{
+    height: 100vh;
+    padding-top: 20vh;
+    background: white;
+    padding: 2em;
+    text-align: center;
+}
+.colum3{
+    background: tomato;
+}
+.btnlogin{
+    width: 100%;
+}
+#Transection-area{
+    display: none;
+    margin-top: 5%;
+}
+.deposit{
+    background: green;
+    color: white;
+    padding: 2em;
+    border-radius: 5px;
+}
+.withdraw{
+    background: hotpink;
+    color: white;
+    padding: 2em;
+    border-radius: 5px;
+}
+.balance{
+    background: indigo;
+    color: white;
+    padding: 2em;
+    border-radius: 5px;
+}
+#inPutarea{
+    margin-top: 2%;
+}
+.inputcol2{
+    background: indigo;
+    padding: 2em;
+    color: white;
+    border-radius: 5px;
+}

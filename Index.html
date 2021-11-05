@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System Management</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid loginarea" id="login-area">
+        <div  class="col-md-3" class="login-area" class="d-flex align-items-center">
+                <div class="signinElement" >
+                    <div class="d-flex align-items-end">
+                    <h1>Paytone</h1>
+                    <h3>Sign In</h3>
+                    <br>
+                    <input type="text" class="form-control" placeholder="Username" name="Username">
+                    <br>
+                    <input class="form-control" type="password" placeholder="Enter Password" name="">
+                    <p class="forget_left">Forgot Password</p>
+                    <br>
+                    <button type="button" class="btn btn-success btnlogin" id="signin" >Sign In</button>
+                    <h4>New to App? <a href="#">Sign up!</a> </h4><link rel="stylesheet" href="">
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="Transection-area">
+        <div class="container">
+            <div class="raw">
+                <div class="col-md-4">
+                    <div class="deposit">
+                        <h4>Deposit</h4>
+                        <h2>$ <span id="currentAmount">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdraw">
+                        <h4>Withdraw</h4>
+                        <h2>$00</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="balance">
+                        <h4>Balance</h4>
+                        <h2>$ <span id="currentBalance">1500</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="inPutarea">
+        <div class="container">
+                <div class="raw">
+                <div class="col-md-6">
+                    <div class="inputcol2">
+                        <h2>Deposit</h2>
+                        <input type="text" id="inputDeposit" class="form-control" placeholder="$ amount you want to deposit">
+                        <br>
+                        <button type="button" id="depositBtn" class="btn btn-success">Deposit</button>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="inputcol2">
+                        <h2>Withdraw</h2>
+                        <input type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                        <br>
+                        <button type="button" class="btn btn-success">Withdraw</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="Script.js"></script>
+    
+</body>
+</html>
