@@ -13,7 +13,7 @@
         <div  class="col-md-3" class="login-area" class="d-flex align-items-center">
                 <div class="signinElement" >
                     <div class="d-flex align-items-end">
-                    <h1>Payoneer</h1>
+                    <h1>Paytone</h1>
                     <h3>Sign In</h3>
                     <br>
                     <input type="text" class="form-control" placeholder="Username" name="Username">
@@ -32,8 +32,8 @@
             <div class="raw">
                 <div class="col-md-4">
                     <div class="deposit">
-                        <h4>Deposite</h4>
-                        <h2>$00</h2>
+                        <h4>Deposit</h4>
+                        <h2>$ <span id="currentAmount">00</span></h2>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -45,7 +45,7 @@
                 <div class="col-md-4">
                     <div class="balance">
                         <h4>Balance</h4>
-                        <h2>$1200</h2>
+                        <h2>$ <span id="currentBalance">1500</span></h2>
                     </div>
                 </div>
             </div>
@@ -56,10 +56,10 @@
                 <div class="raw">
                 <div class="col-md-6">
                     <div class="inputcol2">
-                        <h2>Deposite</h2>
-                        <input type="text" class="form-control" placeholder="$ amount you want to deposit">
+                        <h2>Deposit</h2>
+                        <input type="text" id="inputDeposit" class="form-control" placeholder="$ amount you want to deposit">
                         <br>
-                        <button type="button" id="depositBtn" class="btn btn-success">Deposite</button>
+                        <button type="button" id="depositBtn" class="btn btn-success">Deposit</button>
                     </div>
                     </div>
                     <div class="col-md-6">
@@ -77,5 +77,6 @@
     
 
     <script src="Script.js"></script>
+    
 </body>
 </html>
